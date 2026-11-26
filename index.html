@@ -8,27 +8,27 @@
 <meta property="og:title" content="Dogs with Barbara — Passeadora e tratadora de cães em Lisboa">
 <meta property="og:description" content="Mais vida aos dias do teu cão. Passeios, cuidados e estimulação mental.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Dogs with Barbara","telephone":"+351931499487","areaServed":"Lisboa","address":{"@type":"PostalAddress","addressLocality":"Lisboa","addressCountry":"PT"},"openingHours":"Mo-Su 09:00-20:00","sameAs":["https://www.instagram.com/dogswithbarbara/"]}</script>
 <style>
 /* VOICE: warm, tender, calm — care for dogs, never childish
    IDEA: a well-loved leash-and-park walk: sage lawns, caramel leather, cream paper
    PICTURE: illustrated dog portrait inside an organic sage blob, paw trail
-   COLOUR and TYPE: sage #a3b87b dominant, caramel #e1a86d accent, cream ground; Fraunces + DM Sans
+   COLOUR and TYPE: sage #a3b87b dominant, caramel #e1a86d accent, cream ground; Plus Jakarta Sans
    LAYOUT: full website — sticky nav, hero, about, services grid, why, testimonials scroller, gallery, FAQ, contact, footer */
 :root{color-scheme:light dark;--bg:light-dark(#f9f4f3,#1d1916);--ink:light-dark(#3a2f28,#f3ebe6);--soft:light-dark(#6f6158,#c9bcb3);--card:light-dark(#fff,#28221e);--sage:#a3b87b;--sage-d:light-dark(#6f8650,#b9cc94);--car:#e1a86d;--line:light-dark(#ece3df,#3a322c)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "DM Sans",system-ui,sans-serif;overflow-x:clip}
-h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:700;line-height:1.08;text-wrap:balance;margin:0 0 .5em}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Plus Jakarta Sans",system-ui,sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:800;letter-spacing:-.025em;line-height:1.08;text-wrap:balance;margin:0 0 .5em}
 h1{font-size:clamp(36px,5.4vw,58px)}h2{font-size:clamp(30px,3.6vw,44px)}h3{font-size:21px}
 p{margin:0 0 1em}a{color:inherit}
 .wrap{max-width:1200px;margin:auto}
 .band{padding:clamp(48px,7vw,96px) max(5vw,16px)}
 .lead{font-size:18px;color:var(--soft);max-width:60ch}
 .kick{color:var(--sage-d);font-weight:700;margin-bottom:8px;display:block}
-.btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:3px;font-weight:700;text-decoration:none;border:2px solid transparent;transition:transform .2s,background .2s;cursor:pointer;font-size:16px;font-family:inherit}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:3px;font-weight:700;text-decoration:none;border:2px solid transparent;transition:transform .2s,background .2s;cursor:pointer;font-size:16px;font-family:inherit}
 .btn:hover{transform:translateY(-2px)}
 .btn.p{background:var(--sage);color:#26301a}.btn.p:hover{background:#b3c78c}
 .btn.o{border-color:currentColor;background:none;color:var(--ink)}
@@ -36,13 +36,13 @@ p{margin:0 0 1em}a{color:inherit}
 .en{display:none}html.l-en .en{display:revert}html.l-en .pt{display:none}
 /* nav */
 nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;gap:20px;padding:12px max(5vw,16px);max-width:none}
-.logo{font-family:Fraunces,serif;font-weight:700;font-size:22px;text-decoration:none;display:flex;align-items:center;gap:8px;white-space:nowrap}
+nav .wrap{position:relative;display:flex;align-items:center;gap:20px;padding:12px max(5vw,16px);max-width:none}
+.logo{font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;letter-spacing:-.02em;font-size:20px;text-decoration:none;display:flex;align-items:center;gap:8px;white-space:nowrap}
 .logo svg{width:30px;height:30px}
 .links{display:flex;gap:22px;margin-left:auto}.links a{text-decoration:none;font-weight:500}.links a:hover{color:var(--sage-d)}
-.lang{display:flex;align-items:center;gap:2px}
-.lang button{background:none;border:0;border-bottom:2px solid transparent;padding:8px 6px;cursor:pointer;font:600 14px "DM Sans";letter-spacing:.02em;color:var(--soft);min-height:40px}
-.lang span{color:var(--line)}
+.lang{display:flex;align-items:center;justify-content:center;gap:4px}
+.lang button{background:none;border:0;border-bottom:2px solid transparent;padding:8px 6px;cursor:pointer;font:700 14px "Plus Jakarta Sans",sans-serif;line-height:1;display:inline-flex;align-items:center;justify-content:center;letter-spacing:.02em;color:var(--soft);min-height:40px}
+.lang span{color:var(--soft);opacity:.5;line-height:1}
 .lang button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--sage)}
 .burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;color:var(--ink)}
 @media(max-width:900px){.links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line)}.links.open{display:flex}.links a{padding:14px max(5vw,16px)}.burger{display:block}.navcta{display:none}.lang{margin-left:auto}}
@@ -97,7 +97,7 @@ nav .wrap{display:flex;align-items:center;gap:20px;padding:12px max(5vw,16px);ma
 .track::-webkit-scrollbar{display:none}
 .tcard{flex:0 0 min(380px,86%);scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:4px;padding:28px}
 .stars{color:var(--car);letter-spacing:2px;margin-bottom:10px}
-.tcard blockquote{margin:0 0 16px;font-family:Fraunces,serif;font-size:19px;line-height:1.4}
+.tcard blockquote{margin:0 0 16px;font-size:18px;font-weight:500;line-height:1.5}
 .who{font-weight:700}.who span{display:block;font-weight:400;color:var(--soft);font-size:14px}
 .arrows{display:flex;gap:10px;margin-top:12px}
 .arrows button{width:48px;height:48px;border-radius:3px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font-size:20px}
